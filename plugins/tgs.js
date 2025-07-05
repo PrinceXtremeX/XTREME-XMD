@@ -16,7 +16,7 @@ cmd({
   
     // Check if a Telegram sticker link is provided
     if (!args[0]) {
-      reply('*Please provide a Telegram sticker pack link.*\n\n Example `.tgs` https://t.me/addstickers/telegram ');
+      reply('*ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴛᴇʟᴇɢʀᴀᴍ sᴛɪᴄᴋᴇʀ ᴘᴀᴄᴋ ʟɪɴᴋ*\n\n ᴇxᴀᴍᴘʟᴇ `.tgs` https://t.me/addstickers/telegram ');
       return;
     }
 
@@ -24,7 +24,7 @@ cmd({
     const name = lien.split('/addstickers/')[1];
 
     if (!name) {
-      reply('Invalid Telegram sticker link.');
+      reply('*ɪɴᴠᴀʟɪᴅ ᴛᴇʟᴇɢʀᴀᴍ sᴛɪᴄᴋᴇʀ ʟɪɴᴋ'*);
       return;
     }
 
@@ -87,7 +87,7 @@ await conn.sendMessage(
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
 
-    reply('Sticker pack download complete!');
+    reply('*sᴛɪᴄᴋᴇʀ ᴘᴀᴄᴋ ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴘʟᴇᴛᴇ!*');
 
   } catch (error) {
     console.error('Error processing Telegram sticker pack:', error);
