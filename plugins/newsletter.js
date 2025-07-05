@@ -11,18 +11,18 @@ async (conn, mek, m) => {
     const newsletterJid = m.chat;
 
     // Journaliser l'utilisation de la commande
-    console.log(`[NEWSLETTER] Command used in: ${newsletterJid}`);
+    console.log(`*[ɴᴇᴡsʟᴇᴛᴛᴇʀ] ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇᴅ ɪɴ:* ${newsletterJid}`);
 
     if (!newsletterJid.endsWith("@newsletter")) {
         return conn.sendMessage(newsletterJid, {
-            text: "This command must be used inside a WhatsApp channel (@newsletter)."
+            text: "*ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴍᴜsᴛ ʙᴇ ᴜsᴇᴅ ɪɴsɪᴅᴇ ᴀ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ (@newsletter).*"
         }, { quoted: mek });
     }
 
     // Optionnel : Vérifie si le JID semble valide (commence par "120")
     if (!newsletterJid.startsWith("120")) {
         return conn.sendMessage(newsletterJid, {
-            text: "This does not appear to be a valid WhatsApp channel ID."
+            text: "*ᴛʜɪs ᴅᴏᴇs ɴᴏᴛ ᴀᴘᴘᴇᴀʀ ᴛᴏ ʙᴇ ᴀ ᴠᴀʟɪᴅ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ ɪᴅ.*"
         }, { quoted: mek });
     }
 
@@ -31,12 +31,12 @@ async (conn, mek, m) => {
 
     // Affiche l'ID du canal + date
     await conn.sendMessage(newsletterJid, {
-        text: `Channel ID:\n\n*${newsletterJid}*\n\n🕒 *Executed on:* ${now}`
+        text: `*ᴄʜᴀɴɴᴇʟ ɪᴅ:*\n\n*${newsletterJid}*\n\n🕒 *ᴇxᴇᴄᴜᴛᴇᴅ ᴏɴ:* ${now}`
     }, { quoted: mek });
 
     // Simule un message transféré d’un autre canal
     const fakeNewsletterJid = '120363398101781980@newsletter';
-    const fakeNewsletterName = 'RAHEEM-XMD-3';
+    const fakeNewsletterName = '𝗫𝗧𝗥𝗘𝗠𝗘-𝗫𝗠𝗗';
     const serverMessageId = 101;
     const message = `Forwarded from another newsletter:\n\n*${newsletterJid}*`;
 
