@@ -35,17 +35,17 @@ cmd({
 
     let type = stickers.data.result.is_animated ? 'animated sticker' : 'not animated sticker';
 
-    let message = `*TELEGRAM STICKER*\n\n` +
-                  `*Producer:* ${stickers.data.result.name}\n` +
-                  `*Type:* ${type}\n` +
-                  `*Length:* ${stickers.data.result.stickers.length}\n\n` +
-                  `> Please wait...`;
+    let message = `*ᴛᴇʟᴇɢʀᴀᴍ sᴛɪᴄᴋᴇʀ*\n\n` +
+                  `*ᴘʀᴏᴅᴜᴄᴇʀ:* ${stickers.data.result.name}\n` +
+                  `*ᴛʏᴘᴇ:* ${type}\n` +
+                  `*ʟᴇɴɢᴛʜ:* ${stickers.data.result.stickers.length}\n\n` +
+                  `> *ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...*`;
 
    // await reply(message);
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/06cgye.jpg` },
+                image: { url: `https://files.catbox.moe/lqvrr2.jpg` },
                 caption: message,
                 
             },
