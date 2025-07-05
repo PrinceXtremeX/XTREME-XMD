@@ -14,7 +14,7 @@ async (conn, mek, m, { reply, isCreator }) => {
         }  
 
         const { exec } = require("child_process");  
-        reply("xᴛʀᴇᴍᴇ xᴍᴅ ʀᴇsᴛᴀʀᴛɪɴɢ...*");  
+        reply("*xᴛʀᴇᴍᴇ xᴍᴅ ʀᴇsᴛᴀʀᴛɪɴɢ...*");  
         await sleep(1500);  
         exec("pm2 restart all");  
     } catch (e) {  
