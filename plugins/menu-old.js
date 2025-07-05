@@ -73,7 +73,7 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363398101781980@newsletter',
-                    newsletterName:'RAHEEM-CM',
+                    newsletterName:'𝗫𝗧𝗥𝗘𝗠𝗘-𝗫𝗠𝗗',
                     serverMessageId: 143
                 }
             }
