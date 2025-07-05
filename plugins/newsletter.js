@@ -38,7 +38,7 @@ async (conn, mek, m) => {
     const fakeNewsletterJid = '120363398101781980@newsletter';
     const fakeNewsletterName = '𝗫𝗧𝗥𝗘𝗠𝗘-𝗫𝗠𝗗';
     const serverMessageId = 101;
-    const message = `Forwarded from another newsletter:\n\n*${newsletterJid}*`;
+    const message = `*ғᴏʀᴡᴀʀᴅᴇᴅ ғʀᴏᴍ ᴀɴᴏᴛʜᴇʀ ɴᴇᴡsʟᴇᴛᴛᴇʀ:*\n\n*${newsletterJid}*`;
 
     await conn.sendMessage(
         newsletterJid,
