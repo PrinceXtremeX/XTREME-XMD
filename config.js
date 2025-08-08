@@ -10,7 +10,7 @@ module.exports = {
 
 SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~GtBGALbA#AUkVKF_lS9G6XAe3bme9bQIrDvI7Tg1g38Kjf7Y7k4g",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
