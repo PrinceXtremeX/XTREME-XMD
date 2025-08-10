@@ -8,14 +8,14 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID || "YOUR SESSION_ID",
+SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~ShoGwSYB#3q8fwdQ4WFe22p1uYH85c5qGXx7kp1FQoIDz-QFEqFI",
 
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/e6orj5.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/dm185a.jpg",
 ALIVE_MSG: process.env.ALIVE_MSG || "*ʜɪ ᴅᴇᴀʀ👋 ɪᴍ xᴛʀᴇᴍᴇ xᴍᴅ ᴄʜᴜᴅᴅʏ ʙᴏᴜᴅʏ🦋 ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ғᴏʀ ᴀsɪsᴛ ʏᴏᴜ.*",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
@@ -27,6 +27,6 @@ CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 HEART_REACT: process.env.HEART_REACT || "false",
 OWNER_REACT: process.env.OWNER_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "𝗫𝗧𝗥𝗘𝗠𝗘-𝗫𝗠𝗗",
+BOT_NAME: process.env.BOT_NAME || "JUILUS NOVACHRONO",
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
 };
