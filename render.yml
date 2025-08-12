@@ -19,4 +19,4 @@ services:
       - key: BOT_NAME
         value: XTREME-XMD
       - key: OWNER_NUMBER
-        value: 529633982655
+        value: 2349074881392
