@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "PROVIDE YOUR SESSION ID",
+SESSION_ID: process.env.SESSION_ID || "vital-bobbette-ababacar11500-2cdd381e.koyeb.app/",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -25,7 +25,7 @@ WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
-ANTI_LINK: process.env.ANTI_LINK || "false",
+ANTI_LINK: process.env.ANTI_LINK || ".",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
